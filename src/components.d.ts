@@ -11,6 +11,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 export namespace Components {
   interface MyComponent {
     'action': string;
+    'complexProp': Array<{name: string, number: number, tags: string[]}>;
     'name': string;
     'result': string;
   }
@@ -32,6 +33,7 @@ declare global {
 declare namespace LocalJSX {
   interface MyComponent extends JSXBase.HTMLAttributes<HTMLMyComponentElement> {
     'action'?: string;
+    'complexProp'?: Array<{name: string, number: number, tags: string[]}>;
     'name'?: string;
     'result'?: string;
   }

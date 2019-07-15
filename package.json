@@ -16,12 +16,13 @@
   ],
   "scripts": {
     "build": "stencil build --docs",
+    "build:prod": "stencil build --prod --esm",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
   "devDependencies": {
-    "@stencil/core": "^1.0.7"
+    "@stencil/core": "1.1.6"
   },
   "license": "MIT"
 }

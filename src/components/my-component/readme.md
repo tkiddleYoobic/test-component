@@ -7,11 +7,12 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `action` | `action`  |             | `string` | `undefined` |
-| `name`   | `name`    |             | `string` | `undefined` |
-| `result` | `result`  |             | `string` | `undefined` |
+| Property      | Attribute | Description | Type                                                  | Default     |
+| ------------- | --------- | ----------- | ----------------------------------------------------- | ----------- |
+| `action`      | `action`  |             | `string`                                              | `undefined` |
+| `complexProp` | --        |             | `{ name: string; number: number; tags: string[]; }[]` | `undefined` |
+| `name`        | `name`    |             | `string`                                              | `undefined` |
+| `result`      | `result`  |             | `string`                                              | `undefined` |
 
 
 ----------------------------------------------
